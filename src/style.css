@@ -29,9 +29,15 @@ body {
 }
 
 .flexbox .board .card {
+  display: flex;
+  align-items: center;
   padding: 15px 25px;
   background-color: #F3F3F3;
   cursor: pointer;
   margin-bottom: 15px;
   border-radius: 4px;
+}
+
+.card p {
+  margin-left: 8px;
 }

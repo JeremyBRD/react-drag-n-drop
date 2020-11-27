@@ -9,13 +9,15 @@ function App() {
 
         <Board id='board-1' className="board">
           <Card id='card-1' className="card" draggable='true'>
-            <p>Card One</p>
+           <i className="fas fa-grip-lines"></i>
+           <p>Card One</p>
           </Card>
         </Board>
 
         <Board id='board-2' className="board">
           <Card id='card-2' className="card" draggable='true'>
-            <p>Card Two</p>
+           <i className="fas fa-grip-lines"></i>
+           <p>Card Two</p>
           </Card>
         </Board>
 
