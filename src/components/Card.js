@@ -19,7 +19,7 @@ const dragOver = e => {
   return (
     <div
       id={props.id}
-      className={props.ClassName}
+      className={props.className}
       draggable={props.draggable}
       onDragStart={dragStart}
       onDragOver={dragOver}
